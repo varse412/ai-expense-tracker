@@ -24,7 +24,7 @@ https://drive.google.com/file/d/1TYyxmtABWGItC7wXdjb2xpr3Kn5G_5Ip/view?usp=shari
 - npm or yarn
 - Expo CLI (`npm install -g expo-cli`)
 - Groq API key — get one free at [console.groq.com](https://console.groq.com)
-
+For backend clone repo https://github.com/varse412/ai-expense-tracker.git
 ### Backend
 ```bash
 cd backend
@@ -33,7 +33,7 @@ cp .env.example .env
 # Add your Groq API key to .env:  GROQ_API_KEY=your_key_here
 npm run dev
 ```
-
+For frontend repository use repo clone https://github.com/varse412/mobile.git
 Server runs on `http://localhost:3000`. Health check: `GET /health`
 
 ### Mobile
@@ -68,6 +68,7 @@ ai-expense-tracker/
     └── src/services/
         └── api.ts            # Axios client with offline cache fallback
 ```
+
 
 **Backend** exposes a REST API:
 - `POST /api/expenses` — parse natural language input via AI and save
