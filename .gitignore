@@ -1,2 +1,16 @@
-.DS_Store
+# env
+.env
 *.pem
+
+# deps
+node_modules/
+
+# build
+dist/
+build/
+
+# misc
+.DS_Store
+*.db
+*.db-shm
+*.db-wal
